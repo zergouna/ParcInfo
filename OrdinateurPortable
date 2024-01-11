@@ -1,0 +1,17 @@
+class OrdinateurPortable extends Materiel {
+    Double tailleEcran;
+    String sourit;
+    /**
+     * @param tailleEcran
+     * @param sourit
+     */
+    public OrdinateurPortable(String tailleEcran, String sourit) {
+        super(tailleEcran, sourit);
+    }
+    @Override
+
+    public String toString(){
+        return "La taille de l'ecran est :" + tailleEcran + "\n" + "Le type de sourit est :" + sourit + '\n';
+
+    }
+}
