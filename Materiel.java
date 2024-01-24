@@ -3,7 +3,7 @@ import java.io.Serializable;
 class Materiel implements Serializable {
     private String numeroSerie;
     private String nom;
-
+    private String nomParc;
     public Materiel(String numeroSerie, String nom) {
         this.numeroSerie = numeroSerie;
         this.nom = nom;
